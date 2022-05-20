@@ -1,0 +1,43 @@
+:root {
+    --primary-text-color: #212121;
+    --accent-color: #2196F3;
+    --background-2-color: #2F303A;
+}
+
+body {
+    background-color: #E5E5E5;
+    color: var(--primary-text-color);
+}
+header {
+    background-color: #FFFFFF;
+}
+header .linc:hover {
+    color: var(--accent-color);
+}
+.hero {
+    color: #FFFFFF;
+    background-color: var(--background-2-color);
+}
+.logo {
+    color: var(--primary-text-color);
+}
+.logo-color1 {
+    color: var(--accent-color);
+}
+.linc {
+    color: var(--primary-text-color);
+}
+.linc.current {
+    color: var(--accent-color);
+}
+.linc.contact {
+    color: #757575;
+}
+.button {
+    color: var(--primary-text-color);
+    background-color: #F5F4FA;
+}
+.button.primary {
+    color: #FFFFFF;
+    background-color: var(--accent-color);
+}
