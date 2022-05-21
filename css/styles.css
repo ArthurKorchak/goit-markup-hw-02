@@ -1,18 +1,26 @@
 :root {
     --primary-text-color: #212121;
+    --secondary-text-color: #757575;
     --accent-color: #2196F3;
+    --background-color: #FFFFFF;
     --background-2-color: #2F303A;
 }
-
+li {
+    list-style-type: none;
+}
+a {
+    text-decoration: none;
+    font-style: normal;
+}
 body {
-    background-color: #E5E5E5;
+    background-color: var(--background-color);
     color: var(--primary-text-color);
 }
 header {
-    background-color: #FFFFFF;
+    background-color: var(--background-color);
 }
-header .linc:hover {
-    color: var(--accent-color);
+footer {
+    background-color: var(--background-2-color);
 }
 .hero {
     color: #FFFFFF;
@@ -24,14 +32,23 @@ header .linc:hover {
 .logo-color1 {
     color: var(--accent-color);
 }
-.linc {
+.link {
     color: var(--primary-text-color);
 }
-.linc.current {
+.link.current {
     color: var(--accent-color);
 }
-.linc.contact {
-    color: #757575;
+.link.contact {
+    color: var(--secondary-text-color);
+}
+.link.contact-f {
+    color: #FFFFFF3c;
+}
+.link:hover {
+    color: var(--accent-color);
+}
+.link:focus{
+    color: var(--accent-color);
 }
 .button {
     color: var(--primary-text-color);
@@ -40,4 +57,27 @@ header .linc:hover {
 .button.primary {
     color: #FFFFFF;
     background-color: var(--accent-color);
+}
+.button:hover {
+    color: #FFFFFF;
+    background-color: var(--accent-color);
+}
+.button:focus {
+    color: #FFFFFF;
+    background-color: var(--accent-color);
+}
+.no-display {
+    display: none;
+}
+.sec-text {
+    color: var(--secondary-text-color);
+}
+.white-link {
+    color: #FFFFFF;
+}
+.logo-f {
+    color: #FFFFFF;
+}
+.team {
+    background-color: #F5F4FA;
 }
