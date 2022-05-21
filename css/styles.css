@@ -58,6 +58,7 @@ ul {
 }
 .button {
     color: var(--primary-text-color);
+    cursor: pointer;
     background-color: #F5F4FA;
 }
 .button.primary {
