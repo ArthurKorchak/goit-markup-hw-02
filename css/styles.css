@@ -32,6 +32,9 @@ footer {
 .logo-color1 {
     color: var(--accent-color);
 }
+.logo-f {
+    color: #FFFFFF;
+}
 .link {
     color: var(--primary-text-color);
 }
@@ -49,6 +52,9 @@ footer {
 }
 .link:focus{
     color: var(--accent-color);
+}
+.white-link {
+    color: #FFFFFF;
 }
 .button {
     color: var(--primary-text-color);
@@ -71,12 +77,6 @@ footer {
 }
 .sec-text {
     color: var(--secondary-text-color);
-}
-.white-link {
-    color: #FFFFFF;
-}
-.logo-f {
-    color: #FFFFFF;
 }
 .team {
     background-color: #F5F4FA;
