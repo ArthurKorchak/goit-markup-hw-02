@@ -5,20 +5,6 @@
     --background-color: #FFFFFF;
     --background-2-color: #2F303A;
 }
-a {
-    text-decoration: none;
-    font-style: normal;
-}
-ul {
-    list-style-type: none;
-}
-h2 {
-    text-align: center;
-    font-weight: 700;
-    font-size: 36px;
-    line-height: 1.16;
-    letter-spacing: 0.03em;
-}
 body {
     background-color: var(--background-color);
     color: var(--primary-text-color);
@@ -28,19 +14,29 @@ body {
     line-height: 1.71;
     letter-spacing: 0.03em;
 }
-nav > ul {
+body ul {
+    list-style-type: none;
+}
+.nav > ul {
     font-weight: 500;
     font-size: 14px;
     line-height: 1.14;
     letter-spacing: 0.02em;
 }
-header > .contact {
+.h2 {
+    text-align: center;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.16;
+    letter-spacing: 0.03em;
+}
+.header > .contact {
     font-weight: 500;
     font-size: 14px;
     line-height: 1.14;
     letter-spacing: 0.02em;
 }
-footer {
+.footer {
     background-color: var(--background-2-color);
 }
 .hero {
@@ -98,6 +94,8 @@ footer {
     font-weight: 700;
     font-size: 26px;
     line-height: 1.19;
+    text-decoration: none;
+    font-style: normal;
 }
 .logo-color1 {
     color: var(--accent-color);
@@ -106,7 +104,8 @@ footer {
     color: #FFFFFF;
 }
 .link {
-    color: var(--primary-text-color);
+    text-decoration: none;
+    font-style: normal;
 }
 .link.current {
     color: var(--accent-color);
@@ -115,7 +114,7 @@ footer {
     color: var(--secondary-text-color);
 }
 .link.contact-f {
-    color: #FFFFFF3c;
+    color: #FFFFFF99;
 }
 .link:hover {
     color: var(--accent-color);
