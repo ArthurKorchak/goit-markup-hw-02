@@ -104,6 +104,7 @@ body ul {
     color: #FFFFFF;
 }
 .link {
+    color: var(--primary-text-color);
     text-decoration: none;
     font-style: normal;
 }
